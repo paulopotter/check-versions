@@ -1,0 +1,16 @@
+# Requires.io config
+REQUIRES_IO:
+  ACTIVE: True # False for not using or don't have.
+  SECURITY_TOKEN: False # True if using os environ.
+  USER: PUT_HERE_YOUR_USER
+  TOKEN: PUT_HERE_YOUR_TOKEN
+  REPOSITORY_NAME: PUT_HERE_YOUR_REPOSITORY_NAME
+  UGLIFY_REPOSITORY: False
+  REPOSITORY_BRANCH: master
+
+
+# Project requirements
+PROJECT:
+  NAME: PUT_HERE_THE_PROJECT_NAME # use beautiful name to show.
+  REQUIREMENTS_TYPE: txt # or json
+  REQUIREMENTS_URL: PUT_HERE_THE_URL
