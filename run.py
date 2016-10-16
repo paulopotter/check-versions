@@ -21,6 +21,12 @@ def index():
     return render_template('index.html', project_name=settings['PROJECT']['NAME'])
 
 
+@app.route("/project")
+def project():
+    settings = cache.get("settings")
+    return render_template('index.html', project_name=settings['PROJECT']['NAME'])
+
+
 if __name__ == "__main__":
     PORT = os.getenv('PORT', 5001)
     cache.set("settings", get_settings())
