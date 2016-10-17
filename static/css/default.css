@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+@font-face {
+  font-family: "opensans-regular";
+  src: url("http://s.glbimg.com/gl/ba/fonts/opensans-regular-webfont.woff"); }
+@font-face {
+  font-family: "opensans-bold";
+  src: url("http://s.glbimg.com/gl/ba/fonts/opensans-bold-webfont.woff"); }
+@font-face {
+  font-family: "proximanova-bold";
+  src: url("http://s.glbimg.com/gl/ba/fonts/proximanova-bold-limited-webfont.woff"); }
+body {
+  display: block;
+  font-family: "opensans-regular", "sans-serif";
+  margin: 0; }
+
+a {
+  color: #333;
+  cursor: pointer;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline;
+    color: initial; }
+
+.wrapper {
+  align-content: space-between;
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap; }
+
+/*# sourceMappingURL=default.css.map */

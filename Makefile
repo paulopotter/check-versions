@@ -10,3 +10,6 @@ dependencies:
 developer:
 	pip install -r requirements.txt
 	pip install -r requirements-dev.txt
+
+watch:
+	 scss --watch static/scss/:static/css/
