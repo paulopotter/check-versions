@@ -5,6 +5,72 @@
 ul {
   list-style: none; }
 
+/**
+* SassFlexbox
+* Manage Flexbox in Sass easily.
+*
+* @author     Samuel Marchal (zessx)
+* @version    0.1
+https://github.com/zessx/sass-flexbox/blob/master/sass-flexbox.scss
+*/
+/*
+    Display
+ */
+/*
+    Flex direction
+ */
+/*
+    Flex wrap
+ */
+.wrapper {
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+/*
+    Flex flow
+ */
+/*
+    Order
+ */
+/*
+    Flex grow
+ */
+/*
+    Flex shrink
+ */
+/*
+    Flex basis
+ */
+/*
+    Flex
+ */
+/*
+    Justify content
+ */
+/*
+    Align items
+ */
+.wrapper {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  -moz-align-items: stretch;
+  align-items: stretch; }
+
+/*
+    Align self
+ */
+/*
+    Align content
+ */
+.wrapper {
+  -ms-flex-line-pack: space-between;
+  -webkit-align-content: space-between;
+  -moz-align-content: space-between;
+  align-content: space-between; }
+
 @font-face {
   font-family: "opensans-regular";
   src: url("http://s.glbimg.com/gl/ba/fonts/opensans-regular-webfont.woff"); }
@@ -28,9 +94,6 @@ a {
     color: initial; }
 
 .wrapper {
-  align-content: space-between;
-  align-items: stretch;
-  display: flex;
-  flex-wrap: wrap; }
+  display: flex; }
 
 /*# sourceMappingURL=default.css.map */

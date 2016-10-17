@@ -1,4 +1,5 @@
 @import 'reset';
+@import 'vendor/sass-flexbox';
 
 @font-face {
      font-family: "opensans-regular";
@@ -33,8 +34,8 @@ a {
 
 
 .wrapper {
-    align-content: space-between;
-    align-items: stretch;
+    @include align-content(space-between);
+    @include align-items(stretch);
     display: flex;
-    flex-wrap: wrap;
+    @include flex-wrap(wrap);
 }

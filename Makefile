@@ -11,5 +11,5 @@ developer:
 	pip install -r requirements.txt
 	pip install -r requirements-dev.txt
 
-watch:
-	 scss --watch static/scss/:static/css/
+# watch: # # dont working / only on terminal
+# 	scss --watch static/scss/:static/css/
