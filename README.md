@@ -1,37 +1,37 @@
 # Check Versions
-_The project to check your project's requirements._
+_Keep your dependencies in check_
 
 ## README
-- [ENGLISH](README.md) || [PORTUGUÊS](README-ptbr.md)
+- **ENGLISH** || [PORTUGUÊS](README-ptbr.md)
 
-## What`s it?
+## What's this?
 
- - This project is a better way to see your requirements security with [requires.io](http://requires.io) API
- - This project is a dashboard to know how updated your requirements.
+ - A better way to keep your dependencies security in check with [requires.io](http://requires.io) API
+ - A dashboard to know if your project's dependencies are up to date.
 
 ## SETTINGS
 
-Required edit file [settings.yaml](settings.yaml)
+To run this service, edit [settings.yaml](settings.yaml)
 
 ### settings.yaml
 
 **requires.io**
 ```yaml
 REQUIRES_IO:
-    ACTIVE: True || False # This config is to activate or desactivate the requires.io
-    SECURITY_TOKEN: False || True # this config is to using os environ token.
-    USER: PUT_HERE_YOUR_USER # requires.io's user
-    TOKEN: PUT_HERE_YOUR_TOKEN # requires.io's token if not using SECURITY_TOKEN
-    REPOSITORY_NAME: PUT_HERE_YOUR_REPOSITORY_NAME # requires.io's repository name
-    UGLIFY_REPOSITORY: False || TRUE # This config is to hide the name of project, userful in project can't identified in free plan on requires.io
-    REPOSITORY_BRANCH: master # requires.io's branch
+    ACTIVE: True || False # Activate or deactivate requires.io checks
+    SECURITY_TOKEN: False || True # If True, Check Versions will get the token from environment.
+    USER: PUT_HERE_YOUR_USER # requires.io user
+    TOKEN: PUT_HERE_YOUR_TOKEN # requires.io token, if SECURITY_TOKEN is False
+    REPOSITORY_NAME: PUT_HERE_YOUR_REPOSITORY_NAME # requires.io repository name
+    UGLIFY_REPOSITORY: False || True # Hide the name of your project on requires.io
+    REPOSITORY_BRANCH: master # requires.io branch
 ```
 
 **Project requirements**
 ```yaml
 PROJECT:
   NAME: PUT_HERE_THE_PROJECT_NAME # Project's name.
-  REQUIREMENTS_TYPE: txt || json # requirements's format type.
-  REQUIREMENTS_URL: PUT_HERE_THE_URL # requirements's URL.
+  REQUIREMENTS_TYPE: txt || json # requirements' format type.
+  REQUIREMENTS_URL: PUT_HERE_THE_URL # requirements' URL.
 ```
 
