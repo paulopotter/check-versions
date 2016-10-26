@@ -1,28 +1,28 @@
 # Check Versions
-_O projeto para verificar o requirements do seu projeto_
+_Mantenha suas dependências em dia_
 
 ## README
-- [ENGLISH](README.md) || [PORTUGUÊS](README-ptbr.md)
+- [ENGLISH](README.md) || **PORTUGUÊS**
 
-## Pra que serve?
+## O que é isso?
 
- - Este projeto serve como uma forma melhor de visualizar o retorno da API do [requires.io](http://requires.io)
- - Este projeto serve como um dashboard para saber o quão atualizado o seu requirements está.
+ - Uma forma melhor de visualizar o retorno da API do [requires.io](http://requires.io)
+ - Um dashboard para saber o quão atualizado o seu requirements está.
 
 ## Configurações
-É necessário editar o arquivo [settings.yaml](settings.yaml)
+Para rodar o serviço, é necessário editar o arquivo [settings.yaml](settings.yaml)
 
 ### settings.yaml
 
 **requires.io**
 ```yaml
 REQUIRES_IO:
-    ACTIVE: True || False # Essa config serve para indicar se vai ser usado o requires.io
-    SECURITY_TOKEN: False || True # Essa config serve para quem vai usar o token via variavel de ambiente.
+    ACTIVE: True || False # Indica se vai ser usado o requires.io
+    SECURITY_TOKEN: False || True # True para quem vai passar o token via variavel de ambiente.
     USER: PUT_HERE_YOUR_USER # usuario no requires.io
-    TOKEN: PUT_HERE_YOUR_TOKEN # token do requires.io caso não seja usado o SECURITY_TOKEN
+    TOKEN: PUT_HERE_YOUR_TOKEN # token do requires.io, caso não seja usado o SECURITY_TOKEN
     REPOSITORY_NAME: PUT_HERE_YOUR_REPOSITORY_NAME # Nome do repositoório no requires.io
-    UGLIFY_REPOSITORY: False || TRUE # Essa config serve para esconder o nome do projeto, útil para projetos que não possam ser identificados no plano gratuito do requires.io
+    UGLIFY_REPOSITORY: False || True # Esconder o nome do projeto no requires.io
     REPOSITORY_BRANCH: master # branch utilizada no requires.io
 ```
 
