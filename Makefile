@@ -8,7 +8,6 @@ dependencies:
 	pip install -r requirements.txt
 
 developer:
-	pip install -r requirements.txt
 	pip install -r requirements-dev.txt
 
 # watch: # # dont working / only on terminal
