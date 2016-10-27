@@ -1,0 +1,16 @@
+# Requires.io config
+REQUIRES_IO:
+  ACTIVE: True # False for not using or don't have.
+  SECURITY_TOKEN: False # True if using os environ.
+  USER: PUT_HERE_YOUR_USER_TEST
+  TOKEN: PUT_HERE_YOUR_TOKEN_TEST
+  REPOSITORY_NAME: PUT_HERE_YOUR_REPOSITORY_NAME_TEST
+  UGLIFY_REPOSITORY: False
+  REPOSITORY_BRANCH: test
+
+
+# Project requirements
+PROJECT:
+  NAME: PUT_HERE_THE_PROJECT_NAME_TEST # use beautiful name to show.
+  REQUIREMENTS_TYPE: txt # or json
+  REQUIREMENTS_URL: 'https://raw.githubusercontent.com/paulopotter/check-versions/master/test/utils/requirements.txt'
