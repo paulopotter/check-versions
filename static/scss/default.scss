@@ -38,4 +38,6 @@ a {
     @include align-items(stretch);
     display: flex;
     @include flex-wrap(wrap);
+    margin: 0 auto;
+    width: 90%;
 }

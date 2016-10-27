@@ -94,6 +94,8 @@ a {
     color: initial; }
 
 .wrapper {
-  display: flex; }
+  display: flex;
+  margin: 0 auto;
+  width: 90%; }
 
 /*# sourceMappingURL=default.css.map */
