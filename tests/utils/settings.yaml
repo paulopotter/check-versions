@@ -13,4 +13,4 @@ REQUIRES_IO:
 PROJECT:
   NAME: PUT_HERE_THE_PROJECT_NAME_TEST # use beautiful name to show.
   REQUIREMENTS_TYPE: txt # or json
-  REQUIREMENTS_URL: 'https://raw.githubusercontent.com/paulopotter/check-versions/master/test/utils/requirements.txt'
+  REQUIREMENTS_URL: 'https://raw.githubusercontent.com/paulopotter/check-versions/master/tests/utils/requirements.txt'
