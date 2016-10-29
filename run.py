@@ -6,6 +6,8 @@ from werkzeug.routing import BaseConverter
 from werkzeug.contrib.cache import SimpleCache
 from slugify import slugify
 
+from models.check_versions import CheckVersions
+
 app = Flask(__name__)
 cache = SimpleCache()
 
@@ -38,6 +40,7 @@ def index():
 @app.route("/project/<regex('[\w]+'):project_name>/")
 def project():
     settings = cache.get("settings")
+    CheckVersions.set_settings(settings)
     return render_template('index.html', project_name=settings['PROJECT']['NAME'])
 
 

@@ -1,6 +1,6 @@
 import yaml
 import unittest
-from lib.check_versions import *
+from models.check_versions import *
 
 
 def test_setting_file():
